@@ -13,6 +13,13 @@
  
  Executar o comando: pwsh playwright.ps1 install
  
+ Caso esse comando gere o erro: "pwsh : O termo 'pwsh' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável."
+ Será necessário atualizar o PowerShell para a versão 6.0 ou superior.
+ 
+ https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/PowerShell-7.3.0-win-x64.msi
+
+ Após isso, reinicie o Visual Studio e repita esse passo.
+ 
  Esse comando irá instalar os navegadores utilizados pelo Playwright
  
  Acessar o Menu Test - Test Explorer
@@ -23,4 +30,6 @@
  ou selecionando multiplos testes.
  
  Para execução individual, roda o comando Run individualmente nos testes
+ 
+ 
 
